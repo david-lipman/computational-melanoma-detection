@@ -1,7 +1,5 @@
-# computational-melanoma-detection
-This repository contains the final research paper written for my Princeton independent work seminar Computer Vision for Social Good, advised by Professor Olga Russakovsky.
+# Computational Melanoma Detection: As Easy as ABC?
+This repository contains my final research paper written for the Princeton independent work seminar Computer Vision for Social Good, and advised by Professor Olga Russakovsky. 
 
-Computational Melanoma Detection: As Easy as ABC?
-David Lipman Advisor: Olga Russakovsky
-Abstract
+## Abstract
 In this paper, we develop a non deep-learning approach to melanoma classification that utilizes a feature engineering approach centered around the ABCD rule of skin cancer, which states that skin lesions that are A: asymmetric in terms of shape or texture, B: have irregular or poorly defined borders, C: many colors or color variations from one area to another, and D: diameters of 6mm or larger are more likely to be melanoma. Although deep learning approaches have historically performed better on this task, one of the main advantages of using a non deep-learning approach for melanoma detection is that it increases model interpretability and allows for analysis of feature importance. We focus our analysis on developing a generalizable model to detect melanoma based on these ABCD features, with our optimal random forest model trained on a dataset of 10,180 dermoscopic images yielding an accuracy of 81.9%. Finally, according to our analysis of feature importance, the number of unique colors appearing within a lesion, the intersection between 3D histograms of colors within and outside of each lesion, and the irregularity of a lesion’s border are most informative in determining a lesion’s diagnosis. In addition, the “C” features overall appear to have the most predictive power in classifying a lesion.
